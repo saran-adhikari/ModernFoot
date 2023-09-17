@@ -7,12 +7,7 @@
     font-family: 'Poppins', sans-serif;
     
 }
-window.scroll{
-top:0;
-bottom:0;
-behavior: smooth;
 
-}
 html{
     scroll-behavior: smooth;
     
