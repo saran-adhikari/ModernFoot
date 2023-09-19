@@ -123,7 +123,7 @@ function Home() {
           <div className="wrap">
         <h2>Let's stay in touch.<br/> Get $10 off your first purchase, early access to new releases and outdoor tips, trips and education. </h2>
         <p>Be the first to know about new collections and exclusive offers.</p>
-        <input id= "email" type="email" size={40} placeholder="E-Mail"></input>
+        <input id= "email" type="email"  placeholder="E-Mail"></input>
         <input id='signup' class="btn btn-primary" type="submit" value="Sign Up"></input>
         </div>
       </div>
