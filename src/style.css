@@ -96,10 +96,12 @@ html{
     justify-content: center;
 }
 #email{
+    width: 400px;
     padding:0.625rem;
     margin: 0.625rem;
 }
 #password{
+    
     padding:0.625rem;
     margin: 0.625rem;
 }

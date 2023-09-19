@@ -10,8 +10,8 @@ function Login() {
           <div className="header">Login</div>
 
           <div className="content">
-          <input id="email" size={40} type="email" placeholder="Email"></input>
-          <input id="password" size={40} type="password" placeholder="Password"></input>
+          <input id="email"  type="email" placeholder="Email"></input>
+          <input id="password"  type="password" placeholder="Password"></input>
           
           <Link to="/resetpw">
             <div className="reset">Forgot your password?</div>

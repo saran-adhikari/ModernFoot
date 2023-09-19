@@ -144,7 +144,7 @@ function Values() {
         <h2>Let's stay in touch! </h2>
         <p>Get $10 off your first purchase, early access to new releases and outdoor tips, trips and education.</p>
         
-        <input id= "email" type="email" size={40} placeholder="E-Mail"></input>
+        <input id= "email" type="email"  placeholder="E-Mail"></input>
         <input id='signup' class="btn btn-primary" type="submit" value="Sign Up"></input>
         </div>
       </div>
