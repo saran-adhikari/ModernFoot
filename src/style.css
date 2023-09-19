@@ -250,6 +250,7 @@ img{
     background-color: #00CED1;
 }
 .container{
+    justify-content: center;
     text-align: center;
     padding: 4rem;
     
