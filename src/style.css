@@ -103,7 +103,7 @@ html{
 @media (max-width: 768px) {
     #email {
         max-width: 100%; /* Allow the container to take the full width of the screen */
-        padding: 0.625rem; /* Restore padding to its original value */
+        padding: 1rem; /* Restore padding to its original value */
         margin: 0.625rem; /* Restore margin to its original value */
     }
 }
