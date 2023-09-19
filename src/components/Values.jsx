@@ -25,7 +25,7 @@ function Values() {
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://i.pinimg.com/736x/94/7c/1d/947c1d20ab9f4a79c095561cecaf70ce.jpg" className="w-100" alt="..." height="600"/>
+            <img src="https://i.pinimg.com/736x/94/7c/1d/947c1d20ab9f4a79c095561cecaf70ce.jpg" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="value-body">
             <h2>Where We Are </h2>
               <p>

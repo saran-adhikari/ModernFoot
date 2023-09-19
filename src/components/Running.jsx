@@ -11,7 +11,7 @@ function Running() {
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://img.freepik.com/free-photo/healthy-lifestyles-jogging-through-autumn-forest-landscape-generated-by-ai_188544-11832.jpg?t=st=1694937169~exp=1694940769~hmac=96b6b8619105d72c7725ad92215b141334f059e81498bbb53a58fe6a944c9325&w=2000" className="w-100" alt="..." height="500"/>
+            <img src="https://hips.hearstapps.com/hmg-prod/images/hoka-zinal-13085-1643565794.jpg?crop=1.00xw:0.752xh;0,0.115xh&resize=1200:*" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="value-body">
               
               <h5>Running Shoes </h5>
