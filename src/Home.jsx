@@ -12,7 +12,7 @@ function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="https://www.treehugger.com/thmb/jllq6YHyfzEsTwH3dy4nuBEr3BU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RC_Munjoi_18-f36ba8ab464c4c97949da0b153f12c07.jpg" className="w-100" alt="..." height="650"/>
-            <div className="carousel-caption" id="body">
+            <div className="carousel-caption" id="aut">
               <h5>Stay Dry and Comfy All Day Long</h5>
               <p>
               Thoughtfully Made Outdoor Footwear 
@@ -109,7 +109,7 @@ function Home() {
         <div className="section-primary" id="value-content">
         <div className="row">
           <div className="col">
-          <img src="https://thesusoutdoors.com/cdn/shop/files/Images_with_Text.png?v=1686324998&width=750" alt="" width='100%' height='600'/>
+          <img src="https://images.unsplash.com/photo-1612418398345-e5f7fc6784d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt=""  height='600'/>
           </div>
           <div className="col" id="footwear"> 
             <h2>Our footwear is thoughtfully designed from natural and recycled materials</h2>

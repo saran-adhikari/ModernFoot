@@ -7,7 +7,7 @@ function Values() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="https://i.pinimg.com/736x/c0/b3/3d/c0b33d2992227337c7669273c6bc6ee2.jpg" className="w-100" alt="..." height="500"/>
-            <div className="carousel-caption" id="value-body">
+            <div className="carousel-caption" id="aut">
               <p>
               15% off our Bestselling Shoes 
               </p>
@@ -25,7 +25,7 @@ function Values() {
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://i.pinimg.com/736x/94/7c/1d/947c1d20ab9f4a79c095561cecaf70ce.jpg" className="w-100" alt="..." height="500"/>
+            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="value-body">
             <h2>Where We Are </h2>
               <p>
@@ -56,17 +56,16 @@ function Values() {
           </div>
         </div>
       </div>
-      <img src="https://www.ispo.com/sites/default/files/2021-08/Trekkingschuhe.jpg" className="w-100" alt="..." height="600"/>
-      <div className="container" id='who'>
-        <h2>Transparency </h2>
+      <div className="parallax">
+      <h2>Transparency </h2>
         <p>At ModernFoot we believe that honesty and transparency are the most important drivers in ensuring<br/> progress is made for People and the Planet. We reveal our entire materials list on each product<br/> page, so there are no questions left unanswered.</p>
           <p>We are always looking to be better at what we do. That means, we are constantly on the<br/> lookout for new and innovative materials and partners. If you have any suggestions or direction,<br/> please reach out to us at support@sneakershub.com..</p>
-        
       </div>
+     
       <div className="section-primary" id='value-content'>
         <div className="row">
           <div className="col">
-          <img src="https://thesusoutdoors.com/cdn/shop/files/Frame_896.png?v=1686732951&width=750"  alt="" height='500' width='650'/>
+          <img src="https://images.unsplash.com/photo-1556484687-30636164638b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"  alt="" height='500' />
           </div>
           <div className="col" id="footwear"> 
             <h2>Diversity & Inclusion</h2>
@@ -88,7 +87,7 @@ function Values() {
 
           </div>
           <div className="col">
-          <img src="https://thesusoutdoors.com/cdn/shop/files/Frame_902.png?v=1686660718&width=750"  alt="" height='500' width='650'/>
+          <img src="https://images.unsplash.com/photo-1593672755342-741a7f868732?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"  alt="" height='500'/>
           </div>
          
         </div>
@@ -96,7 +95,7 @@ function Values() {
         <div className="section-primary" id='value-content'>
         <div className="row">
           <div className="col">
-          <img src="https://thesusoutdoors.com/cdn/shop/files/fair-trade-production-footwear.png?v=1686731160&width=750"  alt="" height='500' width='650'/>
+          <img src="https://images.unsplash.com/photo-1621618956312-99541054789d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2066&q=80"  alt="" height='500' />
           </div>
           <div className="col" id="footwear"> 
             <h2>Production</h2>
@@ -119,7 +118,7 @@ function Values() {
 
           </div>
           <div className="col">
-          <img src="https://thesusoutdoors.com/cdn/shop/files/Frame_1093.png?v=1686732976&width=750"  alt="" height='500' width='650'/>
+          <img src="https://images.unsplash.com/photo-1529810313688-44ea1c2d81d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1882&q=80"  alt="" height='500'/>
           </div>
          
         </div>
@@ -127,7 +126,7 @@ function Values() {
         <div className="section-primary" id='value-content'>
         <div className="row">
           <div className="col">
-          <img src="https://thesusoutdoors.com/cdn/shop/files/reduced-plastic-waste-footwear.gif?v=1686731714&width=750"  alt="" height='500' width='650'/>
+          <img src="https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"  alt="" height='500' />
           </div>
           <div className="col" id="footwear"> 
             <h2>Diverting Waste</h2>

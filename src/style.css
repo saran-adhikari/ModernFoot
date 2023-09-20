@@ -38,16 +38,19 @@ html{
     color: white;
 }
 #heading{
-    padding: 3rem; 
+    padding: 1rem; 
+   
 }
 .nav-link{
     font-size: 1rem;
     margin: 0.625rem;
     padding: 0.313rem;
-    
+    transition: color 0.3 ease,tansform 0.3s ease;
     
 }.nav-link:hover{
     border-bottom: 0.025rem solid  #00CED1;
+    transform: scale(1.1);
+    
 }
 #searchbox{
     border-radius: 0.625rem;
@@ -56,26 +59,31 @@ html{
 #search{
     color: white;
     border: none;
-    
+    transition: color 0.3 ease,tansform 0.3s ease;
 }
 
 #search:hover{
+    transform: scale(1.1);
     background-color: #00CED1;
+    
 }
 #user{
     background-color: #2B3035;
     border: none;
-    
+    transition: color 0.3 ease,tansform 0.3s ease;
 }
 #user:hover{
+    transform: scale(1.1);
     background-color: #00CED1;
 }
 #cart{
     background-color: #2B3035;
     border: none;
+    transition: color 0.3 ease,tansform 0.3s ease;
     
 }
 #cart:hover{
+    transform: scale(1.1);
     background-color: #00CED1;
 }
 .credentials{
@@ -100,24 +108,22 @@ html{
     padding:0.625rem;
     margin: 0.625rem;
 }
-@media (max-width: 768px) {
-    #email {
-        max-width: 100%; /* Allow the container to take the full width of the screen */
-        padding: 1rem; /* Restore padding to its original value */
-        margin: 0.625rem; /* Restore margin to its original value */
-    }
-}
+
 #email-homepage{
     width: 250px;
     padding:0.625rem;
     margin: 0.625rem;
 }
 #signin{
+    transition: color 0.3 ease,tansform 0.3s ease;
     background-color: #00CED1;
     border: none;
     padding: 0.625rem 1rem;
     margin: 0.625rem;
     font-size: 1.25rem ;
+}
+#signin:hover{
+    transform: scale(1.1);
 }
 
 #submit{
@@ -259,7 +265,7 @@ img{
 .container{
     justify-content: center;
     text-align: center;
-    padding: 4rem;
+    padding:1.5rem;
     
 }
 .container p{
@@ -300,8 +306,8 @@ img{
     background-color: #00CED1;
 }
 #autumn{
-    padding:4.5rem;
-
+   min-height: 300px;
+    
 }
 #explore{
     background: none;
@@ -313,13 +319,15 @@ img{
     background-color: #00CED1;
 }
 #aut{
-    margin:2rem;
-    padding-bottom: 6rem;
+    bottom: 120px;
 }
 #aut h5{
+    letter-spacing: 1.2px;
     color: white;
 }
 #aut p{
+    line-height: 1.9;
+    margin: auto;
     color: white;
 }
 
@@ -344,29 +352,40 @@ img{
     height: 29rem;
 }
 .section-primary{
-    background-color: #f3f3f3;
-
+    display: flex;
 }
 .section-primary .row{
-    display: flex;
+    
+    justify-content: space-between;
+    /* display: flex; */
     overflow: hidden;
    
 }
 
 #footwear{
+   
     text-align: left;
     margin: 1rem;
-    padding: 1rem;
+    
+    /* padding: 1rem; */
+}
+.col img{
+    
+    text-align: justify;
+    width: 100%;
 }
 #footwear h2{
     margin: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     font-size: 2.5rem;
+    /* text-align: justify; */
 }
 #footwear p{
     margin: 1rem;
-    padding: 1rem;
+    line-height: 1.9;
+    /* padding: 1rem; */
     font-size: 1.5rem;
+    text-align:justify;
 }
 #footwear .btn{
     margin: 1.5rem;
@@ -414,26 +433,39 @@ img{
     display: none;
   }
 
-#value-body{
-    margin: 3rem;
-  }
+
 #value-body h5{
     font-size: 2rem;
     font-weight: bold;
     color: white;
+   
 }
 #value-body h2{
+    line-height: 1.9;
+    letter-spacing: 1px;
     font-size: 2rem;
     font-weight: bold;
     color: white;
 }
 #value-body p{
+    line-height: 1.5;
     font-size: 1.2rem;
     font-weight:bold;
     color: white;   
 }
-#who{
-    text-align: center;  
+.parallax{
+    min-height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1505233676147-accd9c73eb1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1962&q=80);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 1.9;
+    text-align: center; 
 }
 
 #who p{
@@ -460,17 +492,18 @@ img{
 }
 #value-content{
     margin: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     background-color: white;
     
 }
 .container-end{
-    
-    padding: 4rem;
-}
-.wrap{
+    background-color: #f3f3f3;
+    padding: 2rem;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+
 .wrap p{
     color: #2B3035;
     padding: 0.625rem;

@@ -1,6 +1,7 @@
 import React from "react";
 import Connect from "./Connect";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import Ads from "./components/Ads";
 function Header() {
   return (
     <>
@@ -11,12 +12,7 @@ function Header() {
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       />
-      <div class="container-primary">
-        <span>
-          FREE SHIPPING. EASY
-          RETURNS!.
-        </span>
-      </div>
+      <Ads/>
       <nav
         className="navbar navbar-expand-lg bg-body-tertiary"
         id="heading"
@@ -37,7 +33,7 @@ function Header() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse justify-content-evenly" id="navbarNav">
             <ul className="navbar-nav">
               
               <li className="nav-item">
@@ -71,17 +67,16 @@ function Header() {
                 </Link>
               </li>
             </ul>
-          </div>
-        </div>
-        <nav className="navbar bg-body-tertiary">
-          <div className="container-fluid">
+            
+            
+          
             <form className="d-flex" role="search">
-              <input id="searchbox" size="40"
+              {/* <input id="searchbox" size="40"
                 className="form-control me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
-              />
+              /> */}
               <button
                 id="search"
                 className="btn btn-outline-success"
@@ -97,8 +92,11 @@ function Header() {
               </Link>
               
             </form>
+            </div>
           </div>
-        </nav>
+        
+        
+        {/*  */}
       </nav>
       <Connect/>
     </>
