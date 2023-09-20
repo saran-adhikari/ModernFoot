@@ -306,7 +306,7 @@ img{
     background-color: #00CED1;
 }
 #autumn{
-   min-height: 300px;
+   min-height: 150px;
     
 }
 #explore{
@@ -319,7 +319,7 @@ img{
     background-color: #00CED1;
 }
 #aut{
-    bottom: 120px;
+    bottom: 80px;
 }
 #aut h5{
     letter-spacing: 1.2px;
@@ -582,10 +582,13 @@ img{
     font-size: 0.875rem;
     
   }
+  */
+  
   #bc-btn{
     background-color: #2B3035;
+    border: none;
   }
-   */
+
 
    #backend {
     width: 100%;
