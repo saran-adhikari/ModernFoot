@@ -59,11 +59,11 @@ function Home() {
         <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active" id="autumn">
-            <img src="https://images.unsplash.com/photo-1547352637-cfd356c04356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" className="w-100" alt="..." height="700"/>
+            <img src="https://images.unsplash.com/photo-1547352637-cfd356c04356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="aut">
               <h5>Step into Comfort, Stride in Style!</h5>
               <p>
-              Discover the perfect blend of comfort and fashion with our casual shoes, designed to elevate your every step.
+              Discover the perfect blend of comfort.
               </p>
               <Link id="explore" class="btn btn-primary" type="submit" to='/casual'>Shop Now</Link>
             </div>
