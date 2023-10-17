@@ -11,7 +11,7 @@ function Home() {
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://www.treehugger.com/thmb/jllq6YHyfzEsTwH3dy4nuBEr3BU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/RC_Munjoi_18-f36ba8ab464c4c97949da0b153f12c07.jpg" className="w-100" alt="..." height="650"/>
+            <img src="https://images.unsplash.com/photo-1508188239917-0fc5f653cb47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" className="w-100" alt="..." height="650"/>
             <div className="carousel-caption" id="aut">
               <h5>Stay Dry and Comfy All Day Long</h5>
               <p>
@@ -59,7 +59,7 @@ function Home() {
         <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active" id="autumn">
-            <img src="https://images.unsplash.com/photo-1547352637-cfd356c04356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" className="w-100" alt="..." height="500"/>
+            <img src="https://images.unsplash.com/photo-1513047333110-f9c1cb131df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1852&q=80" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="aut">
               <h5>Step into Comfort, Stride in Style!</h5>
               <p>
@@ -109,7 +109,7 @@ function Home() {
         <div className="section-primary" id="value-content">
         <div className="row">
           <div className="col">
-          <img src="https://images.unsplash.com/photo-1612418398345-e5f7fc6784d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt=""  height='600'/>
+          <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt=""  height='600'/>
           </div>
           <div className="col" id="footwear"> 
             <h2>Our footwear is thoughtfully designed from natural and recycled materials</h2>

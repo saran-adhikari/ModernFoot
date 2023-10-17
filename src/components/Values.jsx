@@ -6,7 +6,7 @@ function Values() {
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://i.pinimg.com/736x/c0/b3/3d/c0b33d2992227337c7669273c6bc6ee2.jpg" className="w-100" alt="..." height="500"/>
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="aut">
               <p>
               15% off our Bestselling Shoes 
@@ -25,7 +25,7 @@ function Values() {
       <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80" className="w-100" alt="..." height="500"/>
+            <img src="https://images.unsplash.com/photo-1498206005704-36d87df55231?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1824&q=80" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="value-body">
             <h2>Where We Are </h2>
               <p>

@@ -608,7 +608,11 @@ img{
     background-color: #2B3035;
     border: none;
   }
-
+  #bc-btn:hover{
+    background-color: #00CED1;
+    transition: color 0.3 ease,tansform 0.3s ease;
+    transform: scale(1.01);
+  }
 
    #backend {
     width: 100%;
