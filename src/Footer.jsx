@@ -8,7 +8,7 @@ function Footer() {
         <div className="area">
         <div className="row">
           <div className="col"><header id="sh">ModernFoot</header>
-          <li id="soc">Ethically and sustainably<br/> conscious outdoor footwear</li>
+          <li id="soc">Ethically and sustainably conscious outdoor footwear</li>
 
           {/* <li id="soc"><span id="fb"><i class="fa-brands fa-facebook"></i></span>
            <span id="insta"><i class="fa-brands fa-instagram"></i> </span>

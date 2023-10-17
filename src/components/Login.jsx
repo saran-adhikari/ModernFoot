@@ -11,7 +11,7 @@ function Login() {
 
           <div className="content">
           <input id="email"  type="email" placeholder="Email"></input>
-          <input id="email"  type="password" placeholder="Password"></input>
+          <input id="email"  type="password" placeholder="Password" size={40}></input>
           
           <Link to="/resetpw">
             <div className="reset">Forgot your password?</div>

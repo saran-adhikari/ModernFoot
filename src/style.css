@@ -1,10 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@300;400;500&family=Tilt+Neon&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Tilt Neon', sans-serif;
     
 }
 
@@ -47,7 +49,8 @@ html{
     padding: 0.313rem;
     transition: color 0.3 ease,tansform 0.3s ease;
     
-}.nav-link:hover{
+}
+.nav-link:hover{
     border-bottom: 0.025rem solid  #00CED1;
     transform: scale(1.1);
     
@@ -110,7 +113,7 @@ html{
 }
 #email{
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     padding:0.625rem;
     margin: 0.625rem;
 }
@@ -202,8 +205,9 @@ html{
     font-weight: 600;
 }
 #soc{
+    text-align: left;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0.625rem;
     padding: 0.625rem;
 }
@@ -240,6 +244,7 @@ html{
 }
 img{
     object-fit:cover;
+    overflow: hidden;
     
 }
 #body{
@@ -307,9 +312,7 @@ img{
     text-align: left;
     padding: 0.625rem 0 0 0;
 }
-#click:hover{
-    background-color: #00CED1;
-}
+
 #autumn{
    /* min-height: 150px; */
     
@@ -358,11 +361,12 @@ img{
 }
 .section-primary{
     display: flex;
+    flex-direction: column;
 }
 .section-primary .row{
     
     justify-content: space-between;
-    /* display: flex; */
+    display: flex;
     overflow: hidden;
    
 }
@@ -374,10 +378,14 @@ img{
     
     /* padding: 1rem; */
 }
+.col{
+    text-align: justify;
+   
+}
 .col img{
     
-    text-align: justify;
-    width: 100%;
+    /* text-align: justify; */
+    /* width: 100%; */
 }
 #footwear h2{
     margin: 1rem;
@@ -484,7 +492,7 @@ img{
     padding: 2rem;
 }
 #row-value{
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 #values{
     padding: 0;

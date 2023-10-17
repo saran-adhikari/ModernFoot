@@ -8,7 +8,7 @@ function Casual() {
         <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2031&q=80" className="w-100" alt="..." height="500"/>
+            <img src="https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?cs=srgb&dl=pexels-pixabay-267301.jpg&fm=jpg" className="w-100" alt="..." height="500"/>
             <div className="carousel-caption" id="value-body">
               
               <h5>The Anyday Casual Shoes </h5>

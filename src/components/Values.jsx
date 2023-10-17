@@ -58,7 +58,7 @@ function Values() {
       </div>
       <div className="parallax">
       <h2>Transparency </h2>
-        <p>At ModernFoot we believe that honesty and transparency are the most important drivers in ensuring<br/> progress is made for People and the Planet. We reveal our entire materials list on each product<br/> page, so there are no questions left unanswered.</p>
+        
           <p>We are always looking to be better at what we do. That means, we are constantly on the<br/> lookout for new and innovative materials and partners. If you have any suggestions or direction,<br/> please reach out to us at support@sneakershub.com..</p>
       </div>
      
@@ -118,7 +118,7 @@ function Values() {
 
           </div>
           <div className="col">
-          <img src="https://images.unsplash.com/photo-1529810313688-44ea1c2d81d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1882&q=80"  alt="" height='500'/>
+          <img src="https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FzdWFsJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D&w=1000&q=80"  alt="" height='500'/>
           </div>
          
         </div>
