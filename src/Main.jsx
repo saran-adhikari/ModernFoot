@@ -6,9 +6,12 @@ import './style.css';
 
 import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import ScrollToTop from "./components/ScrollToTop";
+
 ReactDOM.createRoot(document.querySelector('#root')).render(
     
     <BrowserRouter>
+    <ScrollToTop/>
     <All/>
     </BrowserRouter>
     
