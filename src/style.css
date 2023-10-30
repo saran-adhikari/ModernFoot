@@ -29,27 +29,32 @@ html{
 }
 .navbar-brand{
    color:  #00CED1;
-   font-size: 2rem;
-   text-align: center;
+   font-size: 2.2rem;
    font-weight: 500;
-   padding: 0.5rem;
-
+   
+    
 } 
 
 .navbar-brand span{
     color: white;
 }
 #heading{
-    padding: 1rem; 
+    
+    padding: 1.25rem; 
    
 }
 .nav-link{
+    
     font-size: 1rem;
     margin: 0.625rem;
     padding: 0.313rem;
     transition: color 0.3 ease,tansform 0.3s ease;
     
 }
+#navbarNav{
+    justify-content: space-between;
+}
+
 .nav-link:hover{
     border-bottom: 0.025rem solid  #00CED1;
     transform: scale(1.1);

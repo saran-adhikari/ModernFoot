@@ -34,7 +34,7 @@ function Header() {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse justify-content-evenly" id="navbarNav">
+          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               
               <li className="nav-item">
