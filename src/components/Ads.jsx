@@ -5,8 +5,7 @@ function Ads() {
     <>
         <div class="container-primary">
         <span>
-          FREE SHIPPING. EASY
-          RETURNS!.
+        FREE SHIPPING, EASY RETURNS!
         </span>
       </div>
     </>

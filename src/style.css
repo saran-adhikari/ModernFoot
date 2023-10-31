@@ -303,12 +303,19 @@ img{
     height: fit-content;
     width: 20rem;
     margin: 0.313rem;
-    
+    background: linear-gradient(to top, #00CED1 100%);
+    background-size: 100% 200%;
+    transition: all .5s;
     
 }
 .card:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px #00CED1;
     cursor: pointer;
 }
+
 #click{
     border: none;
     font-size: large;

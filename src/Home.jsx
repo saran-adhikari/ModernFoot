@@ -28,10 +28,12 @@ function Home() {
         <div className="card-container">      
         <div className="card" >
         
-        <Link to='/nike'><img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8439f823-86cf-4086-81d2-4f9ff9a66866/air-max-90-big-kids-shoe-1wzwJM.jpg" className="card-img-top" alt="..." /></Link>
+        <Link to='/nike'><img src='https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-5cc7de3b-2afc-49c2-a1e4-0508997d09e6/react-miler-mens-running-shoe-DgF6nr.jpg' 
+       
+          className="card-img-top" alt="..." /></Link>
         
         
-           <Link className="btn btn-primary" id="click" to='/nike'>Nike <i class="fa-solid fa-arrow-right"></i></Link>
+           <Link className="btn btn-primary" id="click" to='/nike'>Nike </Link>
            
         </div>
         
@@ -39,19 +41,19 @@ function Home() {
         <Link to='/hushpuppies'><img src="https://img.freepik.com/free-photo/brown-leather-slip-men-s-shoes-fashion_53876-101531.jpg?w=826&t=st=1694777311~exp=1694777911~hmac=0c8847ce27ac2e30adaf950b884effa82a31252f83c9516cd47e32c63ed7b595" className="card-img-top" alt="..." /></Link>
         
            
-            <Link className="btn btn-primary" id="click" to='/hushpuppies'>Hushpuppies <i class="fa-solid fa-arrow-right"></i></Link>
+            <Link className="btn btn-primary" id="click" to='/hushpuppies'>Hushpuppies </Link>
         
         </div>
         <div className="card">
         <Link to='/adidas'><img src="https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/d0720712d81e42b1b30fa80800826447_9366/Stan_Smith_Shoes_White_M20607_M20607_01_standard.jpg" className="card-img-top" alt="..." /></Link>
         
            
-            <Link className="btn btn-primary" id="click" to='/adidas'>Adidas <i class="fa-solid fa-arrow-right"></i></Link>
+            <Link className="btn btn-primary" id="click" to='/adidas'>Adidas </Link>
         
         </div>
         <div className="card">
         <Link to='/vans'><img src="https://images.vans.com/is/image/Vans/UUK24I-HERO?$583x583$" className="card-img-top" alt="..." /></Link>       
-            <Link className="btn btn-primary" id="click" to='/vans'>Vans <i class="fa-solid fa-arrow-right"></i></Link>
+            <Link className="btn btn-primary" id="click" to='/vans'>Vans</Link>
         
         </div>
         </div>  
