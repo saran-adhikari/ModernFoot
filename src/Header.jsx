@@ -3,9 +3,10 @@ import Connect from "./Connect";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
 import Ads from "./components/Ads";
 function Header() {
-  
+    
   return (
     <>
+    
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -38,7 +39,7 @@ function Header() {
             <ul className="navbar-nav">
               
               <li className="nav-item">
-                <Link to='/running' className="nav-link active" aria-current="page">
+                <Link to='/running' className="nav-link active" aria-current="page" >
                   Running Shoes 
                 </Link>
               </li>
